@@ -13,7 +13,9 @@ cask "kaho" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  # 2.2.0 bundles a Python and MLX built for macOS 15; back to :sonoma once a
+  # release built by the macOS 14 release script (kaho 072eee6) ships
+  depends_on macos: :sequoia
 
   app "Kaho.app"
 
