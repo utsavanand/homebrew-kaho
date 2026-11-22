@@ -1,6 +1,6 @@
 cask "kaho" do
-  version "2.4.6"
-  sha256 "70ba54ef57df367b72661057abbab2b9893eb15b011b793bfc83395cffb825e1"
+  version "2.4.7"
+  sha256 "bab02777de474b1734a624ab337370b7fa2096b132a33f8fcefcf2450e0570aa"
 
   url "https://github.com/utsavanand/kaho/releases/download/v#{version}/Kaho-#{version}.dmg"
   name "Kaho"
